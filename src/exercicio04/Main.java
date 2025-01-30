@@ -39,7 +39,7 @@ public class Main {
         public int quantidade;
 
         public Produto(String codigo, double precoUnitario, int quantidade) {
-            if(quantidade >= 0){
+            if(quantidade >= 0 && precoUnitario >=0){
                 this.codigo = codigo;
                 this.precoUnitario = precoUnitario;
                 this.quantidade = quantidade;
